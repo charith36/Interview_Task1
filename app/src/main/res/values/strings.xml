@@ -5,7 +5,7 @@
     <string name="text_label_2">Task2</string>
     <string name="text_home">Home</string>
 
-    <string name="hello_blank_fragment_1"></string>
-    <string name="hello_blank_fragment_2"></string>
-    <string name="hello_blank_fragment_home"></string>
+    <string name="hello_blank_fragment_1">Hello fragment 1</string>
+    <string name="hello_blank_fragment_2">Hello fragment 2</string>
+    <string name="hello_blank_fragment_home">Hello home fragment</string>
 </resources>
