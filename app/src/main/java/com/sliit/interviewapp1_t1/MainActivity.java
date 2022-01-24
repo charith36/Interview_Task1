@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity implements NavigationBarView
         int id = item.getItemId();
 
         if(id == R.id.home){
+            item.setChecked(true);
+
             // set action bar title according to completed app
             setTitle("Home");
 
@@ -59,6 +61,8 @@ public class MainActivity extends AppCompatActivity implements NavigationBarView
             fragmentTransaction.replace(R.id.flFragment, fragment);
             fragmentTransaction.commit();
         } else if(id == R.id.page_1){
+            item.setChecked(true);
+
             // set action bar title according to completed app
             setTitle("Task1");
 
@@ -69,6 +73,8 @@ public class MainActivity extends AppCompatActivity implements NavigationBarView
             fragmentTransaction.replace(R.id.flFragment, fragment);
             fragmentTransaction.commit();
         } else if(id == R.id.page_2){
+            item.setChecked(true);
+
             // set action bar title according to completed app
             setTitle("Task2");
 
