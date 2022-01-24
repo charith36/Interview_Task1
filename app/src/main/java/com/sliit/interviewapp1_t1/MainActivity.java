@@ -19,7 +19,6 @@ import com.sliit.interviewapp1_t1.Task2.Task2Fragment;
 public class MainActivity extends AppCompatActivity implements NavigationBarView.OnItemSelectedListener {
 
     //initiate bottom navigator
-    //BottomNavigationView bottomNavigationView;
     NavigationBarView navigationView;
 
     //instantiate fragments
@@ -32,7 +31,6 @@ public class MainActivity extends AppCompatActivity implements NavigationBarView
         setContentView(R.layout.activity_main);
 
         //find view of bottom navigator
-        //bottomNavigationView = findViewById(R.id.bottom_navigation);
         navigationView = (NavigationBarView) findViewById(R.id.bottom_navigation);
         
         //set listener for bottom navigation_view
